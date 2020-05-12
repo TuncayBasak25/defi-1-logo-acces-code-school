@@ -3,26 +3,33 @@
   src: url(HelveticaNeueUltraLight.ttf);
 }
 @@font-face {
-  font-family: fontCheuvront;
-  src:url(VerdanaPro-Light.ttf);
+  font-family: Helvetica95Black;
+  src:url(Helvetica95Black.ttf);
 }
 
 p {
   font-family: Helvetica;
-  font-size: 140px;
-  line-height: 120px;
-  padding-left: 120px;
-  padding-top: 30px;
+  font-size: 3vw;
+  line-height: 2.4vw;
+  padding-left: 2.2vW;
+  padding-top: 1vW;
   font-weight: 700;
 }
 
 #cheuvront{
   font-family: Verdana;
-  font-size: 120px;
-  font-weight: 400;
+  font-size: 3.8vw;
+  font-weight: 100;
 
   display: inline-block;
-  transform: scale(2.5, 1.5);
+  transform: scale(1.6, 1);
+}
+
+#accescode {
+  display: inline-block;
+  transform: scale(0.72, 1);
+  margin-left: -3vW;
+  margin-right: -3.6vw;
 }
 
 #code {
@@ -32,10 +39,14 @@ p {
 
 #school {
   font-family: myFirstFont;
-  font-size: 81px;
+  font-size: 1.2vw;
   font-weight: 600;
-  letter-spacing: 18px;
-  border-top: 3px solid;
-  padding-top: 15px;
-  padding-left: 9px;
+  letter-spacing: .29vw;
+  border-top: .07vW solid;
+  padding-top: .6vW;
+  margin-left: 2.75vw;
+}
+
+#image {
+  width: 25vW;
 }

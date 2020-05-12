@@ -2,10 +2,6 @@
   font-family: myFirstFont;
   src: url(HelveticaNeueUltraLight.ttf);
 }
-@@font-face {
-  font-family: Helvetica95Black;
-  src:url(Helvetica95Black.ttf);
-}
 
 p {
   font-family: Helvetica;
